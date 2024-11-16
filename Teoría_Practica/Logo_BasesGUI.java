@@ -6,7 +6,7 @@ import javax.swing.ImageIcon;
 
 
 
-public class Guis{
+public class Logo_BasesGUI{
     public static void main(String[] args) {
         //Método 1
 
