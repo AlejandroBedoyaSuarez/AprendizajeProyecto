@@ -1,4 +1,4 @@
-package NuevaGUI;
+package GUI;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
@@ -19,8 +19,5 @@ public class PanelPrincipal extends JFrame{
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setVisible(true);
     }
-    public static void main(String[] args) {
-        PanelPrincipal panelMain = new PanelPrincipal();
-        panelMain.iniciar(); 
-    }
+   
 }
