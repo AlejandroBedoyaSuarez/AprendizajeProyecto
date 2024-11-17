@@ -1,4 +1,4 @@
-package Teoría_Practica;
+package Frames;
 import java.awt.Color;
 
 import javax.swing.*;
@@ -14,7 +14,7 @@ public class myFrame extends JFrame{
 
         //para poner la imagen: ImageIcon variable = objeto(dirección de la imagen.tipo de imagen)
         //en visual, debes poner primero la carpeta donde esta la imagen y luego el nombre de la imágen
-        ImageIcon image= new ImageIcon("Teoría_Practica/logito.png"); //Se crea el objeto para poder modificar el logo
+        ImageIcon image= new ImageIcon("Frames/logito.png"); //Se crea el objeto para poder modificar el logo
         this.setIconImage(image.getImage()); // Modifica el logo en el cuadro
         //cambia el color del fondo a verde
         //frame.getContentPane().setBackground(Color.green);

@@ -1,8 +1,5 @@
-package Teoría_Practica;
-import java.awt.Color;
+package Frames;
 
-import javax.swing.*;
-import javax.swing.ImageIcon;
 
 
 
