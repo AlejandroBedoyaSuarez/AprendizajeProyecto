@@ -43,19 +43,22 @@ public class JavaLabel {
         //para posicionar el texto y la imágen
         label.setVerticalAlignment(JLabel.CENTER); //posición vertical (top, center, bottom)
         label.setHorizontalAlignment(JLabel.CENTER); // posición horizontal (left, center, right)
-        //label.setBounds(100, 50, 800, 900); //posición x , y. También el tamaño del contenedor
+        label.setBounds(100, 50, 800, 900); //posición x , y. También el tamaño del contenedor
         
         
         
         JFrame frame = new JFrame();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(400, 400);
-        //
+        //Desactivas el default con null y el set bounds ayuda a que personalices tu diseño
         frame.setLayout(null);
         frame.setVisible(true);
         //añadimos el label al frame
         frame.add(label);
+        //antes de usar el pack, asegurarse que estén añadidos todos los procesos (label y eso)
+        //en caso de poner esto, se pone automaticamente el default, incluso puedes quitar el tamaño porque se acopla a tus componentes
+        //frame.pack();
 
-        //https://www.youtube.com/watch?v=Kmgo00avvEw  min 28.01
+       
     }
 }
