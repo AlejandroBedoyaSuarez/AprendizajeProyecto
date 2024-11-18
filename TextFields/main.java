@@ -1,7 +1,9 @@
 package TextFields;
+import javax.swing.*;
+//JTextField= Un componente de cuadro de texto GUI que se puede utilizar para añadir, establecer u obtener texto.
 
-public class main {
+public class Main {
     public static void main(String[] args) {
-        //https://www.youtube.com/watch?v=Kmgo00avvEw 1:50:05    1 hora, 50 min , 05 s
+        MyFrame frame = new MyFrame();
     }
 }
